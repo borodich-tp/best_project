@@ -1,10 +1,6 @@
 <testcase classname="Data Structure - Input" name="TC_DS_004: Validate if the user is able to view the data structure window" time="19.25889">
 <failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at com.conxillium.dataquint.stepDefinition.DataStructureInputStep.user_clicks_on_Data_Structure_window_tab(DataStructureInputStep.java:27)&#13;&#10;&#9;at âœ½.Then User clicks on Data Structure window tab(DataStructureInput.feature:26)&#13;&#10;"><![CDATA[Given Browser is open and user login into Calculations module...............passed
 Then User provide user name and password and login into the project.........passed
-When User is in main page which is Planning.................................passed
-Then User clicks on Data Structure window tab...............................failed
-When User is in Data Structure window.......................................skipped
-Then User should see "Input" tab is loaded..................................skipped
 
 StackTrace:
 java.lang.AssertionError: expected [true] but found [false]
